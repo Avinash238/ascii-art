@@ -1,0 +1,23 @@
+"""
+This script demonstrates how to read an image using Python and the Pillow library.
+
+1. Import the Pillow library, which provides image processing capabilities.
+
+2. Open an image file ('your_image.jpg' in this example) using the Image.open() method.
+
+3. The 'image' object now represents the image file and can be used for various operations.
+
+4. You can display the image using the 'show()' method (commented out).
+
+5. To get the dimensions (width x height) of the image, use the 'size' attribute.
+
+6. Access pixel data using the 'getpixel()' method at specified coordinates (x, y).
+
+7. Convert the image to grayscale if needed using the 'convert()' method (commented out).
+
+8. Save the modified image using the 'save()' method (commented out).
+
+9. Close the image file using the 'close()' method to free up system resources.
+
+Feel free to modify and use this script to work with images in your projects.
+"""
